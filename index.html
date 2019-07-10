@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Coda|Staatliches|Unica+One&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class = "container">
+
+    <div class="jumbotron jumbotron-fluid">
+
+        <div class= "game">
+
+            <!-- Title of Trivia Game -->
+        
+            <h1 class="display-4">Invention Trivia!</h1>
+
+            <!-- Displays time remaining -->
+
+                <p id= "remaining-time">Time Left: 0:00<span id="timer"></span></p>
+ <br>
+                <p id= "question" class="lead"></p>
+
+                <div id= "results">
+<br>
+                </div>
+
+                <!-- Button to start game and divs for question/options placeholders -->
+
+
+                <div id= "choices" class="text-center">
+
+            <button id = "start">Start Quiz</button>
+
+                <div id = "options">
+
+                <button id="submit">Submit Quiz</button>
+
+                <div id="results"></div>
+
+                </div>
+
+                </div>
+
+                </div>
+                
+        </div>
+    </div>
+
+</div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Javascript -->
+   
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    
+</body>
+</html>
