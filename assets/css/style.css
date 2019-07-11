@@ -9,18 +9,26 @@ html, body {
 .container {
     background-color: rgb(158, 210, 223);
     padding: 5%;
-    height: 100%;
+    padding-bottom: 5%;
+    height: auto;
     border: 8px solid rgb(243, 199, 6);
 }
 .jumbotron {
-    height: 100%;
+    height: auto;
 }
 h1 {
     font-family: 'Cinzel', serif;
     font-size: 70px;
     color: rgb(21, 114, 131);
     text-shadow: 1px 1px 2px rgb(3, 3, 3), 0 0 25px rgb(166, 211, 224), 0 0 5px rgb(18, 100, 141);
-
+}
+#Submit {
+    background-color: rgb(255, 208, 0);
+    height: 80px;
+    width: 250px;
+    font-family: 'Unica One', cursive;
+    font-size: 35px;
+    color:rgb(23, 78, 94);
 }
 button {
     background-color: rgb(255, 208, 0);

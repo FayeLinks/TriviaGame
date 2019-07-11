@@ -33,23 +33,45 @@
             <!-- Displays time remaining -->
 
                 <p id= "remaining-time">Time Left: 0:00<span id="timer"></span></p>
- <br>
-                <p id= "question" class="lead"></p>
+                
 
-                <div id= "results">
-<br>
+                <br>
+
+                <div id = "form">
+
+                <form>
+                    <p>What year was the abacus, the first known calculator, invented?: </p>
+                      <input type="radio" name="abacus" value="2400-BC"> 2400 BC<br>
+                      <input type="radio" name="abacus" value="1500-AD"> 1500 AD<br>
+                      <input type="radio" name="abacus" value="1300-AD"> 1300 AD<br>  
+                    
+                    <p>What year was gunpowder invented in China?:</p>
+                      <input type="radio" name="gunpowder" value="1400-AD"> 1400 AD<br>
+                      <input type="radio" name="gunpowder" value="800-AD"> 800 AD<br>
+                      <input type="radio" name="gunpowder" value="1100-AD"> 1100 AD<br>  
+
+                      <p>What year was the pocket watch invented?: </p>
+                      <input type="radio" name="watch" value="1753-AD"> 1753 AD<br>
+                      <input type="radio" name="watch" value="1510-AD"> 1510 AD<br>
+                      <input type="radio" name="watch" value="1510-AD"> 1510 AD<br>  
+                    
+                    <p>What year was the Steam Locomotive invented?:</p>
+                      <input type="radio" name="locomotive" value="1712-AD"> 1712 AD<br>
+                      <input type="radio" name="locomotive" value="1820-AD"> 1820 AD<br>
+                      <input type="radio" name="locomotive" value="1698-AD"> 1698 AD<br>  
+
+                      <br>
+                    
+                      <input type="submit" value="Submit">
+                    </form>
+
                 </div>
 
-                <!-- Button to start game and divs for question/options placeholders -->
+                <br>
 
-
-                <div id= "choices" class="text-center">
+                <!-- Button to start game and divs for the results -->
 
             <button id = "start">Start Quiz</button>
-
-                <div id = "options">
-
-                <button id="submit">Submit Quiz</button>
 
                 <div id="results"></div>
 
